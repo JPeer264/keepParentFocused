@@ -1,5 +1,8 @@
 # keep-parent-focused
 
+[![Build Status](https://travis-ci.com/JPeer264/keepParentFocused.svg?branch=main)](https://travis-ci.com/JPeer264/keepParentFocused)
+[![Coverage Status](https://coveralls.io/repos/github/JPeer264/keepParentFocused/badge.svg?branch=main)](https://coveralls.io/github/JPeer264/keepParentFocused?branch=main)
+
 Alternative to [focus-within](https://caniuse.com/?search=focus-within) and inspired by [css-tricks](https://css-tricks.com/keeping-parent-visible-child-focus/).
 
 ## Getting started
