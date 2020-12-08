@@ -1,3 +1,7 @@
+1.0.2 - December, 08 2020
+
+* 771a784 Chore: update npmignore (JPeer264)
+
 1.0.1 - December, 08 2020
 
 * c3b3f72 Chore: add typings to lib (JPeer264)
