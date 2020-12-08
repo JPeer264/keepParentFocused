@@ -4,9 +4,10 @@
   "description": "Adds class on an element while one of the children has the focus",
   "main": "./dist/keepParentFocused.js",
   "module": "./dist/keepParentFocused.mjs",
+  "typings": "./dist/keepParentFocused.d.ts",
   "scripts": {
     "test": "jest --coverage",
-    "build": "rimraf dest && rollup -c rollup.config.ts",
+    "build": "rimraf dist && rollup -c rollup.config.ts",
     "lint": "eslint *.ts __tests__/**/*.ts",
     "fix": "eslint *.ts __tests__/**/*.ts --fix",
     "prepublish": "npm run build",
