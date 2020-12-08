@@ -1,0 +1,12 @@
+__tests__
+coverage
+node_modules
+.eslintrc.js
+.gitignore
+.travis.yml
+CHANGELOG.md
+jest.config.js
+LICENSE
+README.md
+rollup.config.ts
+tsconfig.json
