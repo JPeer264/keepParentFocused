@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "module": "es2015",
+    "declaration": true,
+    "lib": [
+      "dom"
+    ],
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "dist"
+  }
+}

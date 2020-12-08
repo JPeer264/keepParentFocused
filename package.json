@@ -1,0 +1,62 @@
+{
+  "name": "keep-parent-focused",
+  "version": "0.0.0",
+  "description": "Adds class on an element while one of the children has the focus",
+  "main": "./dist/keepParentFocused.js",
+  "module": "./dist/keepParentFocused.mjs",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "rimraf dest && rollup -c rollup.config.ts",
+    "lint": "eslint *.ts __tests__/**/*.ts",
+    "fix": "eslint *.ts __tests__/**/*.ts --fix",
+    "prepublish": "npm run build",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPeer264/keepParentFocused.git"
+  },
+  "keywords": [
+    "keep",
+    "parent",
+    "focus",
+    "keep-parent-focused",
+    "keepparentfocused",
+    "html"
+  ],
+  "author": "Jan Peer Stöcklmair <janpeer264@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JPeer264/keepParentFocused/issues"
+  },
+  "homepage": "https://github.com/JPeer264/keepParentFocused#readme",
+  "devDependencies": {
+    "@testing-library/dom": "^7.28.1",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.5",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.34.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  }
+}
