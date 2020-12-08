@@ -5,6 +5,8 @@
 
 Alternative to [focus-within](https://caniuse.com/?search=focus-within) and inspired by [css-tricks](https://css-tricks.com/keeping-parent-visible-child-focus/).
 
+Live demo is available [here](https://codesandbox.io/s/keep-parent-focused-iytoc)
+
 ## Getting started
 
 ```sh
