@@ -27,6 +27,12 @@ describe('keepParentFocused', () => {
     insideInput = getByTestId(document.body, 'inside-input');
   });
 
+  it('should not throw any error', () => {
+    const removeEventListeners = keepParentFocused(null);
+
+    expect(removeEventListeners).not.toThrow();
+  });
+
   it('should keep parent focused', () => {
     keepParentFocused(parent, 'focus-class');
 
